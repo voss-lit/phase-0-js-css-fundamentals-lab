@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: #333;
     font-size: 1.2em;
     padding: 1em;
@@ -9,48 +9,48 @@
     z-index: 1000;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline;
     margin: 0 1em;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     color: #fff;
 }
 
-.main-content{
+.main-content {
     padding-top: 5em;
 }
 
-.main-content section{
+.section {
     padding: 2em 1em;
     text-align: center;
 }
 
-#home h1{
+#home h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-#home p{
+#home p {
     font-size: 1.2em;
     color: #666;
 }
 
-.portfolio-container{
+.portfolio-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1em;
 }
 
-.portfolio-item{
+.portfolio-item {
     background-color: #fff;
     border: 1px solid #ddd;
     margin: 1em;
@@ -61,26 +61,26 @@
     transition: transform 0.3s;
 }
 
-.portfolio-item h3{
+.portfolio-item h3 {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
-.portfolio-item p{
+.portfolio-item p {
     margin-bottom: 0.5em;
     color: #666;
 }
 
-.portfolio-item img{
+.portfolio-item img {
     width: 100%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
     transform: scale(1.05);
 }
 
-#footer{
+#footer {
     background-color: #222;
     color: #fff;
     padding: 2em;
